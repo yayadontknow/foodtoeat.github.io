@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta title="吃什么啦！"/>
+        <link href='https://fonts.googleapis.com/css?family=ZCOOL KuaiLe' rel='stylesheet'>
+        
+    </head>
+    <style>
+        h1{
+            text-align: center;
+            margin-top:0;
+        }
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            font-family: 'ZCOOL KuaiLe';font-size: 22px;
+        }
+        #bg {
+            /* Full height */
+            position:relative;
+            background-image: url("background.png");
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10%;
+        }
+
+        #text{
+            text-align: center;
+        }
+
+        #eat_btn{
+            position:fixed;
+            display: block;
+            left:630px;
+            bottom:50px;
+            width: 250px;
+            align-content: center;
+        }
+    </style>
+    <body>
+        <div id="bg">
+            <br/>
+            <h1 position="center">吃什么啦！</h1>
+            <img id ="img" src="板面.webp" width=300px/>
+            <h3 id="text" ></h3>
+            <img id ="eat_btn" src="干饭.png"/>
+            <script src="food.js"></script>
+        </div>
+    </body>
+</html>
